@@ -1,0 +1,4 @@
+#!/bin/bash
+arg=$1
+curl -O https://s3.amazonaws.com/halitereplaybucket/${arg##*=}
+./halint.py ${arg##*=}
