@@ -191,4 +191,6 @@ Completed halint for ar1487044012-1781075238.hlt
 
 ```
 
+## thanks
 
+@fohristiwhirl I used your move resolution code from [here](https://github.com/fohristiwhirl/halite_reload/blob/master/gohalite_minimal/sim.go).  Made this a lot easier, thanks.
