@@ -1,7 +1,7 @@
 # halint
 a linting tool for Halite game replays
 
-I wrote this [linter](https://en.wikipedia.org/wiki/Lint_(software)) to speed and enhance analysis of Halint game replays.  Perhaps this comes a little late, but I still thought it might be useful to some people analyzing post-mortems of game results during the finals, and it will definitely be useful to anyone continuing to develop a Halite bot.  Frankly, I don't know for sure which (if any) of the lint identified and summary metrics produced are valuable, but there's definitely some food for thought and the output can aid game analysis and other strategy discussions.
+I wrote this [linter](https://en.wikipedia.org/wiki/Lint_(software)) to speed and enhance analysis of Halite game replays.  Perhaps this comes a little late, but I still thought it might be useful to some people analyzing post-mortems of game results during the finals, and it will definitely be useful to anyone continuing to develop a Halite bot.  Frankly, I don't know for sure which (if any) of the lint identified and summary metrics produced are valuable, but there's definitely some food for thought and the output can aid game analysis and other strategy discussions.
 
 There are two files: `halint.py` is the linter, and `halint-get` is a bash script that auto-downloads (using curl, into your current working directory) a specified replay from the Halite website, and then runs `halint.py` on it.  Incidentally, `halint.py` will accept any number of filenames on the command line, so something like  `./halint.py 445689*.hlt` is perfectly valid.
 
